@@ -20,7 +20,7 @@ connection.connect((err) => {
   }
   console.log('Connected to MySQL via Unix socket');
 
-  connection.query("SELECT 'Hello World from Uostas MySQL!' as message", (err, results) => {
+  connection.query("SELECT 'Hello World from u4s MySQL!' as message", (err, results) => {
     if (err) {
       console.error('Error executing query:', err);
       queryMessage = "Query execution error";
