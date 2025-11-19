@@ -6,7 +6,7 @@ const port = 3000;
 let queryMessage = "Loading...";
 
 const connection = mysql.createConnection({
-  socketPath: '/var/run/mysqld/mysqld.sock',
+  socketPath: '/var/lib/mysql/mysql.sock',
   user: 'donatas',
   password: 'donatas',
   database: 'mysql'
